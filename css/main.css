@@ -1,0 +1,75 @@
+/**
+ * @author Sankarsan Kampa
+ * @url https://traction.one
+ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, button, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #111111;
+    color: #f0f0f0;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    color: inherit;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(200, 200, 200, .1);
+    color: inherit;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+input[type="checkbox"]:hover {
+    border-color: orange;
+}
+input[type="checkbox"]:checked {
+    background-color: orangered;
+}
+
+label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(200, 200, 200, .1);
+    color: inherit;
+}
+select option {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+}
+a:hover {
+    color: orange;
+}
